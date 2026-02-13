@@ -1,0 +1,97 @@
+.services {
+    padding: 80px 20px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    position: relative;
+    height: 250px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    transition: 0.5s ease;
+}
+
+.overlay h3 {
+    color: white;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-card:hover .overlay {
+    /* background: linear-gradient(to right, rgba(0,200,83,0.85), rgba(29,233,182,0.85)); */
+}
+
+.service-card:hover h3 {
+    transform: translateY(-10px);
+}
+
+.web {
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.RwTExEmsaW8AW0sT78ZejQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
+}
+
+.mobile {
+    background-image: url("https://images.unsplash.com/photo-1511707171634-5f897ff02aa9");
+}
+
+.cloud {
+    background-image: url("https://webkul.com/wp-content/uploads/2021/06/cloud-and-devops.png");
+}
+
+.uiux {
+    background-image: url("https://brandemic.in/wp-content/uploads/2023/01/what-is-uiux-design.webp");
+}
+
+.testing {
+    background-image: url("https://miro.medium.com/max/828/1*dGjxCWXLPf_aeRQRdyZklQ.png");
+}
+
+.consulting {
+    background-image: url("https://gisuser.com/wp-content/uploads/2021/12/itconsult1.jpg");
+}
+
+@media (max-width: 992px) {
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services h2 {
+        font-size: 28px;
+    }
+}
