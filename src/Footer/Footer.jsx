@@ -62,7 +62,7 @@ const Footer = () => {
             2 Floor, Uptown Cyberabad Building, 100 ft Road, Madhapur, Hyderabad.
           </p>
           {/* <p><LocationPinIcon className="icon"/></p> */}
-          <p><PhoneIcon className="icon" /> +91 8745258969</p>
+          <p><PhoneIcon className="icon" /> 040276126</p>
           <p><EmailIcon className="icon" /> hrmanager@musoftware.co.in</p>
 
           <div className="social-icons">
