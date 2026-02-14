@@ -24,7 +24,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo">
-                <img src="https://drive.google.com/file/d/1YRymzUgWlgjHDxTydouM6k5rtaNuMDaL/view?usp=sharing" alt="HeaderLogo" style={{width:"30vh",height:"13vh",paddingTop:"0.5rem"}} />
+                <img src="./headerLogo.jpeg" alt="HeaderLogo" style={{width:"30vh",height:"13vh",paddingTop:"0.5rem"}} />
                 {/* <p style={{ fontSize: "25px", fontWeight: "bold" }}>MU softek solutions </p> */}
             </div>
 
