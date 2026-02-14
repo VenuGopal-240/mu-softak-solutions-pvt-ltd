@@ -63,7 +63,7 @@ const Footer = () => {
           </p>
           {/* <p><LocationPinIcon className="icon"/></p> */}
           <p><PhoneIcon className="icon" /> +91 8745258969</p>
-          <p><EmailIcon className="icon" /> info@MUsofteksolutions.com</p>
+          <p><EmailIcon className="icon" /> hrmanager@musoftware.co.in</p>
 
           <div className="social-icons">
             <FacebookIcon />
